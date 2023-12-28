@@ -1,0 +1,5 @@
+package com.app.affan.bean;
+
+public class User {
+
+}

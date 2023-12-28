@@ -1,0 +1,13 @@
+package com.app.affan.repo;
+
+import java.util.List;
+
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+import com.app.affan.entity.Employee;
+
+public interface EmployeeRepository extends PagingAndSortingRepository<Employee, Integer> {
+
+	void saveAll(List<Employee> asList);
+
+}

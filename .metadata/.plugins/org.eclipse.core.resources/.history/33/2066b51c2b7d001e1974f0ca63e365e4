@@ -1,0 +1,5 @@
+package com.app.affan.entity;
+
+public class Employee {
+
+}

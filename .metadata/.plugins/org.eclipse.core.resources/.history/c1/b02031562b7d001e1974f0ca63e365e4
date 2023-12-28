@@ -1,0 +1,25 @@
+package com.app.affan.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Data
+@Table(name="")
+public class Employee {
+
+	@Id
+	@Column(name="eid")
+	private Integer empId;
+	
+	@Column(name="ename")
+	private String empName;
+	
+	@Column(name="esal")
+	private Double empSal;
+	
+	@Column(name="edept")
+	private String empDept;
+	
+}

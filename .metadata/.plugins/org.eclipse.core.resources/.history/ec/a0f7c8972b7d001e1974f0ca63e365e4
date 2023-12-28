@@ -1,0 +1,7 @@
+package com.app.affan.repository;
+
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+public class EmployeeRepository implements PagingAndSortingRepository<T, ID> {
+
+}

@@ -1,0 +1,10 @@
+package com.app.affan.repo;
+
+
+import com.app.affan.entity.Employee;
+public class EmployeeRepository implements PagingAndSortingRepository<Employee, Integer> {
+
+
+
+
+}

@@ -1,0 +1,7 @@
+package com.app.affan.repo;
+
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+public interface Repooo extends PagingAndSortingRepository<T, ID> {
+
+}

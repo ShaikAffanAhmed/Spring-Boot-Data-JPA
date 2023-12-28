@@ -1,0 +1,13 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>WELCOME TO APP</title>
+</head>
+<body>
+    <h2>WELCOME TO FIRST APPLICATION!</h2> </br>
+    <p> 
+        Hello : ${uname}! 
+        Your Course is : ${cname}.
+    </p>
+</body>
+</html>

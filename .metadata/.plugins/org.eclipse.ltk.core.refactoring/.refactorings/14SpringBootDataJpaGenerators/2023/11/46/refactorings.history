@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;14SpringBootDataJpaGenerators&apos;&#x0D;&#x0A;- Original project: &apos;14SpringBootDataJpaGenerators&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     14SpringBootDataJpaGenerators/src/main/java/entity&#x0D;&#x0A;     14SpringBootDataJpaGenerators/src/main/java/repo&#x0D;&#x0A;     14SpringBootDataJpaGenerators/src/main/java/runner" description="Delete elements" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;runner" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;repo" element3="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;entity" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1700112767491" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,21 @@
+package com.app.affan.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+
+@Controller
+public class UserController {
+    //Path /info , Method: GET
+	@RequestMapping(value = "/info", method = RequestMethod.GET)
+	public String showUserpage(Model model) {
+		System.out.println(model.getClass().getName());
+		
+		model.addAttribute("uname","SHAIK");
+		model.addAttribute("cname","SBMS");
+		return "UserHome";
+		
+	}
+}
